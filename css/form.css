@@ -1,0 +1,90 @@
+body{
+	background: #e4e4e4;
+}
+#form{
+	font-family: "HelveticaNeue-Light","Helvetica Neue","Helvetica","Arial","sans-serif";
+	font-weight: 300;
+	margin: 0 auto;
+	width: 1110px;
+	height: 300px;
+}
+#form .title{
+	font-size: 27px;
+	margin-bottom: 19px;
+}
+form{
+	width: 500px;
+	margin-right:50px;
+	float: left;
+}
+.inputText, .inputSubmit, select{
+	font-family: "HelveticaNeue-Light","Helvetica Neue","Helvetica","Arial","sans-serif";
+	font-size: 19px;
+    font-weight: 300;
+    height: 57px;
+    padding: 16px 20px;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+	border-radius: 10px;
+    -moz-border-radius: 10px;
+    --webkit-border-radius: 10px;
+}
+select{
+	
+}
+textarea{
+    border: none;
+	resize: none;
+}
+	#authorForm textarea{
+		height: 250px;
+	}
+	#quoteForm textarea{
+		height: 200px;
+	}
+.inputSubmit{
+	background: #4086a3;
+	color: #ffffff;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+}
+	.inputSubmit:hover{
+		background: #5fa1bd;
+	}
+
+.noti{
+	padding-bottom: 10px;
+}
+	.ui-helper-hidden-accessible{
+		display: none;
+	}
+	.ui-autocomplete {
+		width: 470px;
+		max-height: 200px;
+		overflow-y: auto;
+		overflow-x: hidden;
+		padding: 0;
+		font-size: 14px;
+		border-left: 2px solid #d2d2d2;
+		border-right: 1px solid #d2d2d2;
+		border-bottom: 1px solid #d2d2d2;
+		border-radius: 10px;
+	    -moz-border-radius: 10px;
+	    --webkit-border-radius: 10px;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+	.ui-autocomplete .ui-menu-item .ui-corner-all{
+		display: block;
+		background:  #ffffff;
+		list-style-type: none;
+		padding: 14px;
+		border-bottom: 1px solid #d2d2d2;
+		cursor: pointer;
+	}
+	.ui-autocomplete li:hover, .ui-autocomplete .ui-menu-item .ui-state-focus{
+		background: #d4e1e7;
+	}
